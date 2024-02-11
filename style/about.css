@@ -1,0 +1,25 @@
+.about {
+  margin-bottom: 80px;
+}
+
+.about__box {
+  display: flex;
+  gap: 20px;
+}
+
+.about__col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.about__img_mt {
+  margin-top: auto;
+}

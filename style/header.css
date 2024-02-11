@@ -1,3 +1,86 @@
 .header__top {
   display: flex;
+  border-bottom: 1px solid #888888;
+  padding-bottom: 35px;
+}
+
+.header__logo {
+  width: 180px;
+  height: 38px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.header__contacts {
+  display: flex;
+  gap: 40px;
+}
+
+.header__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.header__offer {
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+}
+
+.header__top-link-1, .header__top-link-2 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: right;
+  color: #607CE6;
+}
+
+.header__top-link-2 {
+  text-decoration: none;
+}
+
+.header__bottom {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+  gap: 44px;
+}
+
+.nav__link {
+  display: flex;
+  padding: 16px 0;
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav__link:hover {
+  color: #607CE6;
+}
+
+.header__recall {
+  display: flex;
+  margin-left: auto;
+  padding: 16px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  gap: 3px;
+}
+
+.header__icon-recall {
+  position: relative;
+  top: 2px;
+}
+
+.header__icon-recall img {
+  width: 15px;
+}
+
+.header__bottom-link {
+  color: #607CE6;
 }
